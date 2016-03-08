@@ -1,0 +1,41 @@
+@font-face {
+      font-family: "BankGothicBold";
+      src: url("BankGothicBold.ttf");
+    }
+@font-face {
+      font-family: "DS-DIGI";
+      src: url("DS-DIGI.TTF");
+    }
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 24px;
+}
+body {
+    text-align: center;
+    background-color: black;
+    color: yellow;
+    font-family: "BankGothicBold"; 
+}
+.button {
+    background-color: yellow;
+    font-family: "BankGothicBold"; 
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+button:hover {
+    background-color: black;
+    color: yellow;
+}
+#clock {
+    font-family: "DS-DIGI";
+    font-size: 75px;
+    margin-top: 150px;
+}
+#content {
+    font-size: 36px;
+    margin-top: 200px;
+}
