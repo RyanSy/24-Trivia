@@ -1,26 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="utf-8">
-	<title>24 Trivia Game</title>
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
-	<script src="assets/javascript/app.js"></script>
-</head>	
+  <meta charset="utf-8">
+  <title>24 Trivia</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
 <body>
-	<div id="content">
-		<h1>24 Trivia Game</h1>
-		<h2>You have until 12:00 to answer each question. Press Start to Play!</h2>
-		<div id="questions-container"></div>
-		<div id="answers-container"></div>
-	    <button id="start-button" class="button">Start</button>	
-	    <button id="submit-button" class="button">Submit</button>
-	</div>
+  <!-- Trigger the modal with a button -->
+<div id="launch">
+  <button id="start-button" type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Launch 24 Trivia</button>
+</div>
 
-	<div id="clock"></div>
+<div id="gameContainer">
+  <div id="quiz-area">
+
+
+  </div>
+  <div id="clock">
+  </div>
+</div>
+
+
+
+
+            <script   src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="assets/javascript/app.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
