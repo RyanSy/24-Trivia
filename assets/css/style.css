@@ -97,7 +97,10 @@
     width: 20px;
     color: red;
   }
-  #gameContainer {
+  #gameBody {
     background-color: black;
     text-align: center;
+  }
+  #gameContainer {
+    margin-top: 100px;
   }

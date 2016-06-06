@@ -1,3 +1,8 @@
+$( document ).ready(function() {
+  $("#gameContainer").hide();
+  $("#start-button").click(function(){
+    $("#gameContainer").show();
+  })
 ///////////////////////////////////////////////////////////////////////////////
 
 //Question set
@@ -161,3 +166,4 @@ var game = {
     this.loadQuestion();
   }
 };
+});
