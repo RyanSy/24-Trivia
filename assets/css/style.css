@@ -6,15 +6,6 @@
         font-family: "DS-DIGI";
         src: url("DS-DIGI.TTF");
   }
-  /*h1 {
-    font-size: 72px;
-  }
-  h2 {
-    font-size: 24px;
-  }
-  h3 {
-    font-size: 18px;
-  }*/
   body {
     background: url("../images/24wallpaper.jpg") no-repeat center center fixed;
     background-color: black;
@@ -93,8 +84,8 @@
     border: none;
   }
   #closeButton {
-    height: 20px;
-    width: 20px;
+    background-color: inherit;
+    border: none;
     color: red;
   }
   #gameBody {

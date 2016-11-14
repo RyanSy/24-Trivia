@@ -2,7 +2,8 @@ $( document ).ready(function() {
   $("#gameContainer").hide();
   $("#start-button").click(function(){
     $("#gameContainer").show();
-  })
+    $("#launch").hide()
+  });
 ///////////////////////////////////////////////////////////////////////////////
 
 //Question set
