@@ -4,13 +4,11 @@ $(document).ready(function() {
     $("#launch").hide()
     $("#gameContainer").show();
   });
+  $(".btn").mouseup(function(){
+    $(this).blur();
+  });
 
-///////////////////////////////////////////////////////////////////////////////
-
-//Question set
-
-///////////////////////////////////////////////////////////////////////////////
-
+/* Question set */
   var questions = [{
     question: "In what year did 24 first air?",
     answers: [2000, 2001, 2002, 2003],
@@ -33,12 +31,7 @@ $(document).ready(function() {
   	correctAnswer: "HK USP9 Compact"
   }];
 
-  ///////////////////////////////////////////////////////////////////////////////
-
-  //Click events
-
-  ///////////////////////////////////////////////////////////////////////////////
-
+  /* Click events */
   $(document).on('click', '#start-over', function(e) {
     game.reset();
   });
@@ -53,16 +46,7 @@ $(document).ready(function() {
     game.loadQuestion();
   });
 
-  // //$(document).on('click', '#closeButton', function(e) {
-  //   location.reload();
-  // });//
-
-  ///////////////////////////////////////////////////////////////////////////////
-
-  //Game logic
-
-  ///////////////////////////////////////////////////////////////////////////////
-
+  /* Game logic */
   var panel = $('#quiz-area');
   var countStartNumber = 30;
   var userChoices = [];
@@ -147,15 +131,6 @@ $(document).ready(function() {
         }
         panel.append('<br>');
       }
-      // if (yourScore == 100) {
-      //
-      // }
-      // else if (yourScore == 75) {
-      //
-      // }
-      // else {
-      //
-      // }
       panel.append('<br><button id="start-over" class="btn-lg">Play Again</button>');
     },
     reset: function(){
