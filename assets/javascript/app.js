@@ -4,7 +4,7 @@ $(document).ready(function() {
     $("#launch").hide()
     $("#gameContainer").show();
   });
-  $(".btn").mouseup(function(){
+  $("button").mouseup(function(){
     $(this).blur();
   });
 
