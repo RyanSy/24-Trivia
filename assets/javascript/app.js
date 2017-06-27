@@ -4,8 +4,11 @@ $(document).ready(function() {
     $("#launch").hide()
     $("#gameContainer").show();
   });
-  $("button").click(function(){
-    $(this).blur();
+  $("button").on("touchstart", function(){
+    $(this).removeClass("mobileHoverFix");
+  });
+  $("button").on("touchend", function(){
+    $(this).addClass("mobileHoverFix");
   });
 
 /* Question set */

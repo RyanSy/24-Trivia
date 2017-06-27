@@ -28,16 +28,13 @@ button {
 
 }
 button:hover {
-    background-color: black;
-    color: yellow;
-}
-.answer-button {
-
+  background-color: black;
+  color: yellow;
 }
 #clock {
-    font-family: "DS-DIGI";
-    font-size: 75px;
-    margin: 25px;
+  font-family: "DS-DIGI";
+  font-size: 75px;
+  margin: 25px;
 }
 #startGameWindow {
   width: 400px;
@@ -54,13 +51,13 @@ button:hover {
 }
 #launch {
   width: 200px;
-    height: 45px;
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+  height: 45px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 .modal-header {
   background-color: black;
@@ -71,7 +68,7 @@ button:hover {
   text-align: justify;
 }
 .modal-body {
-  color:yellow;
+  color: yellow;
   text-align: center;
   background-color: black;
   border: none;
@@ -92,4 +89,8 @@ button:hover {
 }
 #gameContainer {
   margin-top: 100px;
+}
+.mobileHoverFix:hover,
+.mobileHoverFix.hover{
+    background-position: 0 0px;
 }
